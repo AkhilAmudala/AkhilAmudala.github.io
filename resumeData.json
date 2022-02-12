@@ -1,0 +1,139 @@
+{
+    "main": {
+        "name": "Akhil Amudala",
+        "description": "Aspiring software engineer with experience in a dynamic and fast-paced environment. Comfortable with programming in Python and Java. An enthusiastic learner with profound logical reasoning, critical thinking, and proficient programming skills....",
+        "image": "profilepic.jpg",
+        "bio": "True Assessment does not lie in the past or the present, but lies in the future. This is what I believed in and I follow in my life. An enthusiastic problem solver and have proficient skills in computer science and programming.",
+        "email": "amudalaakhil333@gmail.com",
+        "phone": "+1 602-834-3841",
+        "github": "https://github.com/AkhilAmudala",
+        "project": "https://github.com/AkhilAmudala",
+        "address": {
+            "street": "1234 East Lemon Street",
+            "city": "Tempe",
+            "state": "Arizona"
+        },
+        "website": "https://sai-dheeraj-poosarla.github.io/",
+        "resumedownload": "https://drive.google.com/file/d/1vXC7znsFDBAT3EKJSacheH-aAgKT3RE6/view?usp=sharing",
+        "social": [
+            {
+                "name": "github",
+                "url": "https://github.com/AkhilAmudala",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "In addition to my most proficient skills below, I have also worked on and have experience on Python, Java, C++, C, R, MATLAB, JavaScript, Kotlin, C#, HTML, CSS, Dart, AJAX, MySQL, MongoDB, PostgreSQL, Flask, Spark, OpenCV, TensorFlow,Spring Boot, Bootstrap, React JS, Node JS, Selenium, Flutter, Hadoop, Jupyter, Git, REST APIs, AWS, Google Colab, Tableau, Apache Solr, MetaMap, Android Studio, Slack, Eclipse",
+        "education": [
+            {
+                "school": "Arizona State University",
+                "degree": "Master of Science in Computer Science",
+                "graduated": "January 2021 - July 2022",
+                "description": "Current Cumulative GPA: 4.0 / 4.0"
+            },
+            {
+                "school": "Vellore Institute of Technology, Vellore",
+                "degree": "Bachelor of Technology in Computer Science and Engineering",
+                "graduated": "July 2016 - April 2020",
+                "description": "Cumulative GPA: 8.69 / 10.0"
+            }
+        ],
+        "work": [
+            {
+                "company": "Arizona State University",
+                "title": "Curriculum Research Aide",
+                "years": "April 2021 - Present",
+                "description1": "Developed Unity3D, AI, IM and SS courses with career paths and built website content for Verizon E-Learning Platform.",
+                "description2": "Briefed development team on website research and made suggestions for website builds/products.",
+                "description3": "Performed Quality Assurance, User Acceptance Testing, and Integrity checks for the developed Verizon E-learning website.",
+                "description4": ""
+            },
+
+            {
+                "company": "Freelancer",
+                "title": "Mobile Application Developer",
+                "years": "May 2020 - November 2020",
+                "description1": "Worked as a team in developing a mobile application called VBS, which acts as an emotional and mental balancing system.",
+                "description2": "Performed Musical Note Identification technique from user audio file which generates various visualizations using python.",
+                "description3": "Speech Emotion Recognition (SER) model is implemented in the application using technologies like Android Studio & Kotlin.",
+                "description4": ""
+
+            },
+            {
+                "company": "AIESEC Student Exchange Program",
+                "title": "Web Developer & Entrepreneur Intern, ",
+                "years": "June 2018 - July 2018",
+                "description1": "Deployed a Fashion e-commerce website for the start-up project using python frameworks and improved design.",
+                "description2": "Developed and programmed a product delivery system, which increased online sales by 25% and customer reach by 30%.",
+                "description3": "Provided critical inputs, design guidance and Level 2 End-user Technical Support of eCommerce application.",
+                "description4": "Actively worked on feedbacks, strived to continually improve performance, and assisted key users with UAT testing."
+            },
+            {
+                "company": "IJAST Scopus Journal",
+                "title": "Efficient Approach to Predict Performance of Players",
+                "years": "June 2020",
+                "description1": "SVM, Decision Trees, Random Forests",
+                "description2": "",
+                "description3": "",
+                "description4": ""
+            },
+            {
+                "company": "IJRTE Scopus Journal",
+                "title": "Behavior Based Data Dispatcher",
+                "years": "November 2019",
+                "description1": "Python, DCNN, TensorFlow, OpenCV",
+                "description2": "",
+                "description3": "",
+                "description4": ""
+            }
+        ],
+        "skills": [
+            {
+                "name": "Python",
+                "level": "80%"
+            },
+            {
+                "name": "Java",
+                "level": "60%"
+            },
+            {
+                "name": "SQL",
+                "level": "70%"
+            },
+            {
+                "name": "R",
+                "level": "70%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "AWS Cloud Application to Provide Image Recognition as a Service",
+                "category": "Developed a Web Application for image recognition using Amazon Machine Image and Implemented a load balancer to ensure the elasticity of the application by automatically Scaling out and Scaling in, On-Demand",
+                "image": "project5.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "HealthCare Mining (COVID-19)",
+                "category": "Designed and programmed a web search interface using information extracted from scraped data of COVID-19 discussion forums, which is structured using MetaMap UMLS Annotator tool. Designed a Ranking algorithm to index the ontologies and an interface is set up on Apache SOLR using REST API.",
+                "image": "project3.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Academic Schedule Helper Application",
+                "category": "A ChatBot developed in selenium script which uses NLP techniques to read the query from VIT college students(users) via a telegram chat application to provide details about requested query, based on their course registration.",
+                "image": "project1.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Mess Management System",
+                "category": "Developed a website from scratch using Flask framework to provide registration facilities and maintenance of dine-in booking facilities for students as well as for VIT management for various operations in VIT hostels using DBMS.",
+                "image": "project4.jpg",
+                "url": "https://www.google.com"
+            }
+
+        ]
+    }
+}
