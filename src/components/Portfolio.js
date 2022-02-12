@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardContent, CardActionArea, CardMedia, Typography, Grid, Container } from '@material-ui/core/';
+import { Media } from 'reactstrap';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -25,15 +26,13 @@ export default function Portfolio(props) {
             var projectImage = 'images/portfolio/' + projects.image;
 
             return (
-                <div key={projects.title} className="columns portfolio-item">
+                <div key={projects.title} className="columns portfolio-item" >
                 <Card className={classes.card}>
-                    <CardActionArea href={projects.url}>
-                        <CardMedia className={classes.media} image={projectImage} title={projects.title} />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">{projects.title}</Typography>
-                            <Typography variant="body2" gutterBottom>{projects.category}</Typography>
-                        </CardContent>
-                    </CardActionArea>
+                      <CardMedia className={classes.media} image={projectImage} title={projects.title} />
+                      <CardContent>
+                          <Typography gutterBottom variant="h5" component="h2">{projects.title}</Typography>
+                          <Typography variant="body2" gutterBottom>{projects.category}</Typography>
+                      </CardContent>
                 </Card>
                 </div>
             )
@@ -43,7 +42,7 @@ export default function Portfolio(props) {
     return (
         <section className={classes.root} id="portfolio">
             <Container className="row">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Here are some of the other projects that I have worked on.</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                         {projects}
                     </div>
@@ -51,4 +50,3 @@ export default function Portfolio(props) {
         </section>
     );
 }
-
